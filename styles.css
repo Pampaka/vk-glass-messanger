@@ -1,0 +1,39 @@
+.ConvoMain__composer {
+    position: absolute !important;
+    bottom: 0 !important;
+}
+
+.ConvoMain__composer::before {
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    content: "";
+    backdrop-filter: blur(10px);
+    filter: blur(10px);
+    background: rgba(255, 255, 255, 0.15);
+    z-index: 0;
+    transform: scale(1.1);
+    mask: linear-gradient(transparent 0%, transparent 10%, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9) 60%, white 98%, transparent 100%);
+}
+
+.ConvoMain__historyUnreadWrapper {
+    bottom: calc(100% + 70px) !important;
+}
+
+.ConvoHistory__flow {
+    padding: 0 var(--historyPaddingRight) 100px var(--historyPaddingLeft) !important;
+}
+
+.ConvoMain__composerContent {
+    border: 1px solid #6555 !important;
+    background-color: rgba(31, 31, 31, 0.84) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+.HopNavigationButton {
+    border: 1px solid #6555 !important;
+    background: rgba(31, 31, 31, 0.84) !important;
+    backdrop-filter: blur(10px) !important;
+}

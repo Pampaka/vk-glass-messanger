@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "vk-glass-messanger",
+  "version": "1.0",
+  "description": "Расширение для ВК осовременивающий поле ввода (а может и не только)",
+  "content_scripts": [
+    {
+      "matches": ["https://vk.com/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}
