@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Glass UI для ВК",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Осовременивает дизайн ВК, добавляя элементы Glass UI. (Сейчас поддерживает только тёмную тему)",
   "content_scripts": [
     {
