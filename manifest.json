@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "vk-glass-messanger",
+  "name": "Glass UI для ВК",
   "version": "1.0",
-  "description": "Расширение для ВК осовременивающий поле ввода (а может и не только)",
+  "description": "Осовременивает дизайн ВК, добавляя элементы Glass UI. (Сейчас поддерживает только тёмную тему)",
   "content_scripts": [
     {
       "matches": ["https://vk.com/*"],
